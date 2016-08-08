@@ -1,0 +1,20 @@
+{
+  "name": "test-eslint-import-resolver-meteor",
+  "private": true,
+  "scripts": {
+    "eslint": "eslint . --fix"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-import-resolver-meteor": "^0.3.1",
+    "eslint-plugin-import": "^1.10.1",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-meteor": "^4.0.0",
+    "eslint-plugin-react": "^6.0.0"
+  }
+}
