@@ -20,26 +20,9 @@
     "node": true
   },
   "rules": {
-    "consistent-return": "off",
     "func-names": "off",
-    "global-require": "off",
-    "max-len": "off",
-    "new-cap": "off",
-    "no-cond-assign": [
-      "error",
-      "except-parens"
-    ],
     "no-console": "off",
-    "no-constant-condition": [
-      "error",
-      {
-        "checkLoops": false
-      }
-    ],
-    "no-new": "off",
-    "no-param-reassign": "off",
-    "no-underscore-dangle": "off",
-    "prefer-arrow-callback": "off",
+    "import/no-extraneous-dependencies": "off",
     "meteor/eventmap-params": [
       2,
       {
@@ -56,12 +39,5 @@
       "meteor"
     ],
     "import/resolver": "meteor"
-  },
-  "globals": {
-    "bootbox": false,
-    "FS": false,
-    "gm": false,
-    "Wunderlist": true,
-    "Todoist": true
   }
 }
